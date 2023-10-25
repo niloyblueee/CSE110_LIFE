@@ -18,3 +18,14 @@ while True:
     if res4<n:
         break
 print('Total eaten chocolates:',sum)    
+
+#You will be given three Inputs M, N, and P. M indicates the number of chocolates you have. And there is a shop
+#where you can get P new chocolates if you return N empty chocolate packets. You need to find out the total number
+#of chocolates that you can have and print it.
+#================================
+#Sample Input 1:
+#100
+#4
+#1
+#Sample Output 1:
+#133
