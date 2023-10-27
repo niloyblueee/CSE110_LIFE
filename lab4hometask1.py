@@ -7,3 +7,7 @@ for index in range(len(s)):
     elif s[index]==s2[index]:
         s1+=s[index]        
 print(s1)   
+#Given a string, create a new string with all the consecutive duplicates removed. 
+#AAABBBBCDDBBECE
+#ABCDBECE
+
