@@ -16,10 +16,14 @@ for index in range(n2):
         s2+=s1[j]
         n3+=1
         break
-        
-                   
-#s2+=s1[0:n2]+s1[n1+1::]  
-print(s2,sep='')            
+print(s2,sep='')
+#Write a Python program that will take one input from the user
+#made up of two strings separated by a comma and a space (see samples below).
+#Then create a mixed string with alternative characters from 
+# each string. Any leftover chars will be appended at the end
+#  of the resulting string. [Do not use lists for this task]          
+#input: ABCD, efgh
+#output: AeBfCgDh
 
 
 
