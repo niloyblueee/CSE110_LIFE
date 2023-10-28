@@ -15,4 +15,7 @@ print('Maximum',max)
 print('Minimum',min) 
 print('Average is',avg)
 
+#Write a Python program that asks the user for a quantity,
+#then takes that many numbers as input and prints the maximum, 
+#minimum and average of those numbers.
 
