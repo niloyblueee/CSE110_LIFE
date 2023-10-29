@@ -14,3 +14,14 @@ for index in range(len(s1)):
       s3+=s1[index] 
        
 print(s3)
+#Write a Python program that takes two strings 
+# from the user. Then remove characters from 
+# the first
+#string which are present in the second string. [you are not allowed to use replace() ]
+#=====================================================
+#Sample Input1:
+#India is great
+#is
+#Sample Output1:
+#nda great
+
