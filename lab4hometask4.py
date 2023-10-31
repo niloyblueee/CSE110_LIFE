@@ -1,17 +1,21 @@
-s=input('give string: ')
-s2=''
-for index in range(len(s)):
-    if index%2==0 and ord('a')<=ord(s[index])<=ord('z'):
-        s2+=chr(ord(s[index])-32)
-    elif index%2==0 :
-        s2+=chr(ord(s[index]))
-
-    elif index%2!=0 and ord('A')<=ord(s[index])<=ord('Z'):
-        s2+=chr(ord(s[index])+32)   
-    else:
-        s2+=chr(ord(s[index]))     
-print(s2)        
-
+s=input('')
+s1=''
+counter=0
+for char in s:
+  if 'a'<=char<='z' or 'A'<=char<='Z':
+     if counter%2==0:
+        if 'a'<=char<='z' :
+           print(chr(ord(char)-32),end='')
+        elif 'A'<=char<='Z':
+           print(chr(ord(char)),end='')
+     else:
+       if 'A'<=char<='Z':
+         print(chr(ord(char)+32),end='')
+       elif 'a'<=char<='z':
+         print(chr(ord(char)),end='')
+     counter+=1    
+  else:
+    print(char,end='') 
 #Write a python program that takes a string as an input from 
 #the user and then modifies the string in such a way that the
 #string always starts with an uppercase letter and the case of
