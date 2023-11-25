@@ -18,3 +18,14 @@ def show_triangle(n):
     return    
 
 show_triangle(int(input('')))      
+
+
+#Write a function called show_triangle that takes a number as an argument and then prints a palindromic triangle.
+#Moreover, the empty spaces surrounding the triangle are filled with dots(.) . 
+#input 5
+#output 
+#....1....
+#...121...
+#..12321..
+#.1234321.
+#123454321
